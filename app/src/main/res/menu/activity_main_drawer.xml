@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/facebook"
+            android:icon="@drawable/facebook"
+            android:title="Facebook" />
+        <item
+            android:id="@+id/google"
+            android:icon="@drawable/google_icon"
+            android:title="Google Plus" />
+            </group>
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about"
+            android:title="About" />
+        <item
+            android:id="@+id/community"
+            android:icon="@drawable/youtube_search"
+            android:title="Community" />
+        <item
+            android:id="@+id/channel"
+            android:icon="@drawable/channel"
+            android:title="Channel" />
+
+    </group>
+
+
+</menu>
